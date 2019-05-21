@@ -1,0 +1,85 @@
+<!--index.wxml-->
+
+<view class="root">
+  <image class='background-image' src='../../images/backgroud.png'>
+  </image>
+  <view class="content">
+  <view class='header'>
+    <image class='logo' src='../../images/logo.png'></image>
+    <image class='word' src='../../images/word.png'></image>
+    </view>
+    <view class='title'>中国计算机学会</view>
+    <view class='title2 title'>"人工智能发展应用与报告会"</view>
+    <view class='container'>
+      <view class='rows'>
+        <view class='row1'>
+          <view class='left'>主办单位：</view>
+          <view class=''>中国计算机学会CCF</view>
+        </view>
+        <view class='row2'>
+          <view class='left'>承办单位：</view>
+          <view class='right'>
+            <text decode="{{true}}">江西理工大学&emsp;\n赣州好朋友科技有限公司\nCCF南昌分部</text>
+            <!-- 赣州好朋友科技有限公司  -->
+          </view>
+        </view>
+        <view class='row3'>
+          <view class='left'>协办单位：</view>
+          <view class=''>江西省人工智能学会</view>
+        </view>
+        <view class='row4'>
+          <view class='left'>主办单位：</view>
+          <view class=''>中国计算机学会CCF</view>
+        </view>
+        <view class='row5'>
+          <view class='left'>时间地点：</view>
+          <view class='right'>
+            <text decode="{{true}}">2019-5-11（周六）&emsp;&emsp;\n江西理工大学本部&emsp;&emsp;&emsp;</text>
+          </view>
+        </view>
+        <view class='row6'>
+          <view class='left'>
+            <navigator url='/pages/map/index' hover-class="none">
+              <image class='location' src='../../images/address.png'></image>
+            </navigator>
+          </view>
+          <view class=''>
+            <navigator url='/pages/map/index' hover-class="none">
+              <button class=' button'>查看地图</button>
+            </navigator>
+          </view>
+        </view>
+
+        <view class='row7'>
+          <view class='left'>
+            <navigator url='/pages/map/index' hover-class="none">
+              <image class='location' src='../../images/detail.png'></image>
+            </navigator>
+          </view>
+          <view class=''>
+            <navigator url='/pages/detail/detail' hover-class="none">
+              <button class=' button'>查看详情</button>
+            </navigator>
+          </view>
+        </view>
+
+         <view class='row7'>
+          <view class='left'>
+            <navigator url='/pages/map/index' hover-class="none">
+              <image class='location' src='../../images/call.png'></image>
+            </navigator>
+          </view>
+          <view class=''>
+            <navigator   hover-class="none">
+              <button bindtap='call' class=' button'>拨打电话</button><text decode="{{true}}">&emsp;&emsp;&emsp;&emsp;钟老师 0797—10086</text>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='footer' align='center'>
+      <image class='footer-img' src='../../images/footer.png'>
+      </image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,80 @@
+.tle {
+  font-size: 10pt;
+ border-top: 1px solid #c9c9c9;
+ margin: 20rpx 0;
+ border-left: 1px solid #c9c9c9;
+}
+
+.ae {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+.wc {
+ width: 40%;
+ justify-content: center;
+ text-align: center;
+ vertical-align: center;
+ height: 200rpx;
+ line-height: 30rpx;
+ border-top: 1px solid #c9c9c9;
+ border-left: 1px solid #c9c9c9;
+ border-bottom: 1px solid #c9c9c9;
+ border-right: 1px solid #c9c9c9;
+}
+.wm {
+ width: 60%;
+ justify-content: center;
+ text-align: center;
+ height: 200rpx;
+ line-height: 90rpx;
+ border-top: 1px solid #c9c9c9;
+ border-left: 1px solid #c9c9c9;
+ border-bottom: 1px solid #c9c9c9;
+ border-right: 1px solid #c9c9c9;
+}
+.wl{
+   width: 10%;
+ justify-content: center;
+ text-align: center;
+ height: 200rpx;
+ line-height: 90rpx;
+ border-top: 1px solid #c9c9c9;
+ border-left: 1px solid #c9c9c9;
+ border-bottom: 1px solid #c9c9c9;
+ border-right: 1px solid #c9c9c9;
+}
+.wcnoneborder{
+   width: 40%;
+ justify-content: center;
+ text-align: center;
+ height: auto;
+ line-height: 90rpx;
+
+ border-right: 1px solid #c9c9c9;
+}
+.by-c{
+ background: white;
+}
+.by-w {
+ background: white;
+}
+.a-y {
+ background:  white;
+ border-bottom: 1px solid #c9c9c9;
+ border-right: 1px solid #c9c9c9;
+}
+.dd {
+ width: 40%;
+ 
+ border-bottom: 1px solid #c9c9c9;
+ border-right: 1px solid #c9c9c9;
+ justify-content: center;
+ background: #e6f3f9;
+ color: #333;
+ display: flex;
+ height: auto;
+ align-items: center;
+}

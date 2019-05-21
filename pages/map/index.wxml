@@ -1,0 +1,4 @@
+<view class='title3'></view>
+<view class='demo-box'>
+<map class='demo-box' id='myMap' latitude='{{lat}}' longitude='{{lon}}' markers='{{markers}}'></map>
+</view>

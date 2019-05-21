@@ -1,0 +1,120 @@
+/**index.wxss**/
+
+.logo {
+  
+  margin: 10rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.word {
+  margin: 10rpx;
+  width: 200rpx;
+  height: 80rpx;
+}
+
+.backgroud {
+  width: 100%;
+  height: 100%;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+.title2 {
+  margin-top: 20rpx;
+  font-size: 18pt;
+}
+
+.container {
+  margin: 40rpx;
+  margin-bottom: 0rpx;
+  background: rgba(255, 255, 255, 0.6);
+  border: solid 0.5rpx white;
+  border-radius: 8px;
+  height: 800rpx;
+}
+
+.root {
+  width: 100%;
+  height: 100%;
+  background-color: #70c7da;
+  position: relative;
+}
+
+.background-image {
+  height: 1200rpx;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.left {
+  float: left;
+}
+
+.rows {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 14pt;
+  margin-top: -150rpx;
+}
+
+.right {
+  float: right;
+}
+
+.row6 {
+  margin-top: 10px;
+}
+
+.button {
+  line-height: 70rpx;
+  text-align: center;
+  vertical-align: middle;
+  background: transparent;
+  border: solid 0.5rpx white;
+  border-radius: 8px;
+  width: 250rpx;
+  height: 80rpx;
+}
+
+.location {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.footer {
+  align-items: center;
+  align-content: center;
+  width: 800rpx;
+  height: 100rpx;
+
+}
+
+.footer-img {
+  margin-left: 16%;
+  width: 500rpx;
+  height: 150rpx;
+}
+.header{
+  align-items: center;
+  align-content: center;
+  width: 800rpx;
+  height: 100rpx;
+}
